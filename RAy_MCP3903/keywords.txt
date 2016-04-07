@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For RA_MCP3911
+# 24 Bit ADC 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RAy_MCP3903	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+read24Bitregister	KEYWORD2
+write24Bitregister	KEYWORD2
+readAnalog	KEYWORD2
+readAnalogAVG	KEYWORD2
+setGain	KEYWORD2
+getGain	KEYWORD2
+setBoost	KEYWORD2
+getBoost	KEYWORD2
+setOSR	KEYWORD2
+getOSR	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MCP3903_ADDR	Literal1
+MOD_REG	Literal1
+PHASE_REG3903	Literal1
+GAIN_REG3903	Literal1
+STATUSCOM_REG3903	Literal1
+CONFIG_REG3903	Literal1
