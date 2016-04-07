@@ -17,24 +17,10 @@ Serial.print(" RESET ");
 
 void loop()
 {
-Serial.print("adc 0  24bit :");
+Serial.print("adc 0  22bit :");
 oldmillisec=millis();
-Serial.println(LTC2400.readAnalogAVG(5.0,22,1),7);
+Serial.println(LTC2400.readAnalogAVG(5.0,22,1),7);// (VRef 5.0V,22Bit resolution,1 Sample),show 7 Digits
 Serial.println(millis()-oldmillisec);
-/*
-Serial.print("adc 0  16bit :");
-oldmillisec=millis();
-Serial.println(LTC2400.readAnalog(5.0,16),7);
-Serial.println(millis()-oldmillisec);
-
-Serial.print("AVG :");
-oldmillisec=millis();
-Serial.println(LTC2400.readAnalogAVG(5.0,24,2),7);
-Serial.println(millis()-oldmillisec);
-*/
-
-
-
 }
 
 
