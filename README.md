@@ -1,5 +1,5 @@
 # Arduino_Libraries
-a couple of Libraries 
+a couple of Libraries written by myself
 for AVR to be used in Arduino IDE
 
 # Contents
